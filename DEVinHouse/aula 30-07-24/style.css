@@ -1,0 +1,32 @@
+.container {
+  max-width: 600px;
+  background-color: orange;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-size: 28px;
+}
+
+.form {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+input {
+  width: 60px;
+  height: 44px;
+}
+
+button {
+  width: 133px;
+  height: 44px;
+  background-color: blue;
+  color: white;
+  border: none;
+  margin: 0 auto;
+}
