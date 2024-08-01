@@ -10,24 +10,21 @@ body {
   font-size: 16px;
   line-height: 1.6;
 }
-
 .header {
   background-color: #ffb300;
   color: #333;
-  padding: 20x 0;
+  padding: 20px 0;
   text-align: center;
   font-size: 28px;
   width: 100%;
-}
-
-.header h1 {
-  margin: 0;
 }
 
 .navbar {
   background-color: #333;
   padding: 5px 0;
   width: 100%;
+  position: relative;
+  z-index: 1;
 }
 
 .navbar ul {
