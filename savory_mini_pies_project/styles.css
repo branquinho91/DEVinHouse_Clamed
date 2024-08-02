@@ -10,12 +10,13 @@ body {
   font-size: 16px;
   line-height: 1.6;
 }
+
 .header {
   background-color: #ffb300;
   color: #333;
   padding: 20px 0;
   text-align: center;
-  font-size: 26px;
+  font-size: 30px;
   width: 100%;
 }
 
