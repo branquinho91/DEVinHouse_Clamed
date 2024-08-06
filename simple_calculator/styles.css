@@ -1,0 +1,29 @@
+.container {
+  display: block;
+  width: fit-content;
+  padding: 30px;
+  margin: 30px auto;
+  border: 2px solid rgb(106, 189, 216);
+}
+
+form * {
+  max-width: 500px;
+}
+
+fieldset {
+  border: none;
+}
+
+button {
+  border: none;
+  height: 40px;
+  width: 120px;
+  border-radius: 4px;
+}
+
+.result-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
