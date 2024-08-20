@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+#catImagePreview {
+  margin-top: 10px;
+  max-width: 200px;
+  max-height: 200px;
+  display: block;
+}
+#catColor {
+  width: 100px;
+  height: 30px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cat Registration</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <form id="catForm">
+      <h1>Cat Registration</h1>
+
+      <img id="catImagePreview" alt="Image Preview" />
+
+      <div class="input-group">
+        <label for="catName">Name:</label>
+        <input type="text" id="catName" name="catName" required />
+      </div>
+      <div class="input-group">
+        <label for="catAge">Age (in years):</label>
+        <input type="number" id="catAge" name="catAge" required />
+      </div>
+      <div class="input-group">
+        <label for="catDescription">Description:</label>
+        <textarea id="catDescription" name="catDescription" rows="4" required></textarea>
+      </div>
+      <div class="input-group">
+        <label for="catImage">Photo URL:</label>
+        <input type="url" id="catImage" name="catImage" placeholder="https://example.com/image.jpg" required />
+      </div>
+      <div class="input-group">
+        <label for="catColor">Color:</label>
+        <input type="color" id="catColor" name="catColor" value="#ffffff" />
+      </div>
+      <button type="submit">Register</button>
+      <!-- add a fixed footer -->
+    </form>
+  </body>
+</html>

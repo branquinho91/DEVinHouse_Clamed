@@ -1,0 +1,133 @@
+body {
+  background-image: url("assets/bg.jpg");
+}
+
+span {
+  color: red;
+}
+
+.container-home {
+  width: 70%;
+  background-color: #fff;
+  margin: 40px auto;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 10px;
+}
+
+.container-home h1 {
+  color: #802600;
+  font-size: 24px;
+  text-align: center;
+}
+
+.input-container {
+  margin: 5px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container label {
+  margin-bottom: 5px;
+}
+
+.option-bold {
+  font-weight: bold;
+}
+
+.input-container input,
+textarea,
+select {
+  width: 100%;
+  box-sizing: border-box;
+  height: 35px;
+  border-radius: 8px;
+  font-size: 18px;
+  border: 1px solid #a9480b;
+  outline-color: #802600;
+  resize: vertical;
+}
+
+.input-container textarea {
+  height: auto;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-45 {
+  flex-basis: 45%;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button-submit {
+  width: 100px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #802600;
+  margin-top: 10px;
+}
+
+.container-pets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.item-pet {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #000;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu {
+  height: 50px;
+  background-color: #802600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-app {
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  background-color: #a9480b;
+}
+
+.footer-app p {
+  text-align: center;
+  color: #fff;
+  font-size: 18x;
+}
+
+@media (max-width: 800px) {
+  .form-row {
+    flex-direction: column;
+  }
+
+  .container-home {
+    width: 90%;
+  }
+}
